@@ -27,7 +27,7 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 # Copy local code to the container image.
-COPY . ./
+COPY app/ ./
 
 # Run the web service on container startup.
 # Use gunicorn webserver with one worker process and 8 threads.
