@@ -1,0 +1,13 @@
+# Exclude locally installed dependencies
+venv/
+__pycache__/
+
+# Exclude local IDE settings
+.idea/
+.vscode/
+
+# Exclude testing cache
+.pytest_cache/
+
+# macOS
+**/.DS_Store
